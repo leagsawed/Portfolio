@@ -21,7 +21,7 @@ export const Skills = () => {
             </h3>
           </div>
           <p className="text-sm text-muted-foreground text-center">
-            Environnement d'exécution JavaScript côté serveur permettant de
+            Environnement d&apos;exécution JavaScript côté serveur permettant de
             créer des <strong>applications rapides</strong>.
           </p>
         </Card>
