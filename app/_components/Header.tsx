@@ -5,13 +5,13 @@ import Link from 'next/link';
 
 export const Header = () => {
   return (
-    <header className=" fixed top-0 left-0 right-0 w-full z-50 py-4 bg-gradient-to-b from-black from-40% to-transparent ">
-      <Section className="flex  justify-between ">
+    <header className=" fixed top-0 left-0 right-0 w-full z-50 py-4  bg-gradient-to-b from-black from-40% to-transparent ">
+      <Section className="flex  justify-between items-baseline ">
         <div className="flex sm:items-center gap-4  ">
-          <h1 className=" text-lg text-muted-foreground font-caption font-bold hidden sm:block">
+          <h1 className=" text-lg text-muted-foreground  font-bold hidden sm:block leading-none m-0">
             Gaël Dewas
           </h1>
-          <ul className="flex  gap-4 ">
+          <ul className="flex items-baseline gap-4 ">
             <Link
               href="https://github.com/leagsawed"
               className="text-muted-foreground hover:text-white transition-colors duration-300"

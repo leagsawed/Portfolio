@@ -6,7 +6,7 @@ import profileImage from '@/images/Vintage_square.png';
 export const Hero = () => {
   return (
     <Section className="flex max-md:flex-col items-start gap-4">
-      <div className="flex-[3] flex flex-col gap-2 ">
+      <div className="flex-[3] flex flex-col gap-2 max-md:text-center max-md:items-center max-md:px-5 ">
         <h2 className="font-caption text-5xl"> Gaël Dewas</h2>
         <h3 className="text-3xl font-caption text-primary ">
           Développeur Front end
@@ -28,8 +28,8 @@ export const Hero = () => {
       <div className="flex-[2] max-md:m-auto ml-auto px-10">
         <Image
           src={profileImage}
-          width={500}
-          height={500}
+          width={300}
+          height={300}
           alt="Gaël"
           className="rounded-full object-cover "
           priority
