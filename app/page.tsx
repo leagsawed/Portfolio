@@ -8,23 +8,25 @@ import { Footer } from './_components/Footer';
 
 export default function Home() {
   return (
-    <main>
+    <main className="w-full">
       <Header />
-      <Spacing />
-      <div id="hero" className="scroll-mt-32">
-        <Hero />
-      </div>
-      <Spacing />
-      <div id="skills" className="scroll-mt-32">
-        <Skills />
-      </div>
-      <Spacing />
-      <div id="projects" className="scroll-mt-32">
-        <Projects />
-      </div>
-      <Spacing />
-      <div id="contact" className="scroll-mt-32">
-        <Contact />
+      <div className="max-w-7xl mx-auto">
+        <Spacing />
+        <div id="hero" className="scroll-mt-32">
+          <Hero />
+        </div>
+        <Spacing />
+        <div id="skills" className="scroll-mt-32">
+          <Skills />
+        </div>
+        <Spacing />
+        <div id="projects" className="scroll-mt-32">
+          <Projects />
+        </div>
+        <Spacing />
+        <div id="contact" className="scroll-mt-32">
+          <Contact />
+        </div>
       </div>
       <Footer />
     </main>

@@ -59,6 +59,16 @@ body {
   * {
     @apply border-border;
   }
+
+  html,
+  body {
+    width: 100%;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
   body {
     @apply bg-background text-foreground;
   }

@@ -22,6 +22,11 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: 'Gaël Dewas - Développeur front-end',
   description: 'Portfolio de développeur',
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    minimumScale: 1,
+  },
 };
 
 export default function RootLayout({
@@ -30,9 +35,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="min-w-[320px]">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${anekTelugu.variable} font-sans antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${anekTelugu.variable} font-sans antialiased min-w-[320px] overflow-x-hidden`}
       >
         {children}
       </body>

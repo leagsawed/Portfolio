@@ -7,8 +7,8 @@ import { Section } from './section';
 export const Skills = () => {
   return (
     <Section className="flex flex-col items-start gap-4">
-      <div className="flex-1 w-full">
-        <h2 className="pt-2 text-3xl font-caption tracking-tight first:mt-0 text-center ">
+      <div className="w-full">
+        <h2 className="text-3xl font-caption tracking-tight text-center pt-2 first:mt-0">
           Compétences
         </h2>
       </div>
