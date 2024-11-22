@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
 import { Anek_Telugu } from 'next/font/google';
+import { Toaster } from 'sonner';
 
 const anekTelugu = Anek_Telugu({
   subsets: ['latin'],
@@ -22,11 +23,12 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: 'Gaël Dewas - Développeur front-end',
   description: 'Portfolio de développeur',
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    minimumScale: 1,
-  },
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  minimumScale: 1,
 };
 
 export default function RootLayout({
@@ -40,6 +42,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${anekTelugu.variable} font-sans antialiased min-w-[320px] overflow-x-hidden`}
       >
         {children}
+        <Toaster />
       </body>
     </html>
   );

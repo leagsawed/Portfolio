@@ -31,7 +31,7 @@ export const Skills = () => {
 
       <div className="flex max-sm:flex-col gap-4">
         <Card className="flex flex-col gap-4 flex-1 items-center p-4">
-          <NodeLogo size={64} className="md:w-16 sm:h-16 w-12 h-12" />
+          <NodeLogo size={64} className="md:w-16 sm:h-16 w-12 h-12 mt-2" />
           <div className="flex items-center justify-center w-full">
             <h3 className="pt-2 text-4xl max-md:text-2xl  font-caption tracking-tight">
               Node.js
@@ -46,7 +46,7 @@ export const Skills = () => {
         <Card className="flex flex-col gap-4 max-md:gap-1 flex-1 items-center p-4">
           <ReactLogo
             size={64}
-            className="animate-spin md:w-16 sm:h-16 w-12 h-12"
+            className="animate-spin md:w-16 sm:h-16 w-12 h-12 mt-2"
             style={{ animationDuration: '15s' }}
           />
           <div className="flex items-center justify-center w-full">
@@ -60,7 +60,7 @@ export const Skills = () => {
           </p>
         </Card>
         <Card className="flex flex-col gap-4 flex-1 items-center p-4">
-          <NextLogo size={64} className="md:w-16 sm:h-16 w-12 h-12" />
+          <NextLogo size={64} className="md:w-16 sm:h-16 w-12 h-12 mt-2" />
           <div className="flex items-center justify-center w-full">
             <h3 className="pt-2 text-4xl max-md:text-2xl font-caption tracking-tight">
               Next.js

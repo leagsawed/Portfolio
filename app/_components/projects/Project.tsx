@@ -10,7 +10,7 @@ export const Project = (props: ProjectProps) => {
       className=" flex flex-col p-6  bg-card hover:bg-accent/10 transition-colors rounded-xl border shadow-sm"
     >
       <div className="flex justify-center">
-        <span className=" text-accent-foreground p-2 rounded-lg">
+        <span className=" text-accent-foreground p-2 ">
           <props.Logo size={50} />
         </span>
       </div>
