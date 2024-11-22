@@ -8,15 +8,15 @@ export const Hero = () => {
     <Section className="flex max-md:flex-col items-start gap-4">
       <div className="flex-[3] flex flex-col gap-2 max-md:text-center max-md:items-center max-md:px-5 ">
         <h2 className="font-caption text-5xl"> Gaël Dewas</h2>
-        <h3 className="text-3xl font-caption text-primary ">
+        <h3 className="text-3xl font-caption text-primary max-sm:text-2xl ">
           Développeur Front end
         </h3>
         <p>
           Je combine ma passion pour la <strong>création visuelle</strong> et le{' '}
           <strong>développement web</strong> afin de concevoir des interfaces{' '}
-          <strong>élégantes</strong>, <strong>intuitives</strong> et{' '}
-          <strong>immersives</strong>, offrant une expérience utilisateur{' '}
-          <strong>agréable</strong> et <strong>créative</strong>. <br />
+          <strong>élégantes</strong> et <strong>intuitives</strong>, offrant une
+          expérience utilisateur <strong>agréable</strong> et{' '}
+          <strong>créative</strong>. <br />
           <br />
           N&apos;hésitez pas à découvrir{' '}
           <Link href="#projects" className="italic">
